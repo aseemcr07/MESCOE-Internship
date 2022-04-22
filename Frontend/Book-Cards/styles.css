@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --dark-grey: #383838;
+    --primary-color: #380000;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+.profile_text{
+    width: 100%;
+    margin:20px 0;
+}
+.text{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color: var(--light-grey);
+}
+.profile_row{
+     /* width: 90%; */
+     width: 80%;
+     margin: auto;
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+     flex-wrap: wrap;
+}
+.profile_card{   
+    /* height: 355px;
+    width: 355px; */
+    margin: 10px;
+    border-radius: 8px;
+    transition: 0.5s all ease;
+    box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.15);
+}
+.profile_card:hover{
+    color: rgb(255, 255, 255);
+    transform: scale(1.05);
+    box-shadow: 4px 8px 16px 4px rgba(0,0,0,0.3);
+}
+.profile_content{
+    padding: 16px;
+    margin: 16px 48px;
+}
+img{
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    border-color: var(--primary-color);
+    border-width: 10px;
+}
+.profile_img{
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info h2{
+    margin: 6px;
+    color: var(--primary-color);
+}
+.info p{
+    font-size: 16px;
+    color: var(--dark-grey);
+
+}
+.btn{
+    text-align: center;
+    margin: 16px;
+    margin-top: 24px;
+}
+.btn a {
+    background-color: var(--primary-color);
+    color: white;
+    /* padding: 10px 31px;
+    font-size: 25px; */
+    padding: 8px 24px;
+    font-size: 16px;
+    border-radius: 4px;
+}
